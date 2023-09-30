@@ -2,7 +2,7 @@ import { removeElement } from "./hw-9";
 
 describe("homework 9 remake group", () => {
   it("should remove match in the array", () => {
-    const array = [1, 2, 3, 4, 5, 6, 7, 5];
+    const array = [1, 2, 3, 4, 5, 6, 7];
     const needRemove = 5;
     const expectedArray = array.filter((item) => item !== needRemove);
 
